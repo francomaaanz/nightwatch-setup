@@ -1,0 +1,47 @@
+15:05:05.328 INFO - Launching a standalone Selenium Server
+15:05:05.377 INFO - Java: Oracle Corporation 24.79-b02
+15:05:05.377 INFO - OS: Mac OS X 10.11.5 x86_64
+15:05:05.393 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+15:05:05.497 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
+15:05:05.497 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
+15:05:05.498 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:05:05.498 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+15:05:05.501 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+15:05:05.501 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+15:05:05.573 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+15:05:05.573 INFO - Selenium Server is up and running
+15:05:05.991 INFO - Executing: [new session: Capabilities [{platform=ANY, cssSelectorsEnabled=true, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Edit App / Edit App Spec}]])
+15:05:06.003 INFO - Creating a new session for Capabilities [{platform=ANY, cssSelectorsEnabled=true, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Edit App / Edit App Spec}]
+Starting ChromeDriver 2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6) on port 41527
+Only local connections are allowed.
+15:05:09.524 INFO - Done: [new session: Capabilities [{platform=ANY, cssSelectorsEnabled=true, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Edit App / Edit App Spec}]]
+15:05:09.543 INFO - Executing: [get: http://www.google.com])
+15:05:12.025 INFO - Done: [get: http://www.google.com]
+15:05:12.035 INFO - Executing: [find elements: By.cssSelector: body])
+15:05:12.070 INFO - Done: [find elements: By.cssSelector: body]
+15:05:12.077 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: body]])
+15:05:12.090 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: body]]
+15:05:12.098 INFO - Executing: [get title])
+15:05:12.105 INFO - Done: [get title]
+15:05:12.113 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:05:12.131 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:05:12.141 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: input[type=text]]])
+15:05:12.165 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: input[type=text]]]
+15:05:12.172 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:05:12.188 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:05:12.195 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: input[type=text]], [r, e, m, b, r, a, n, d, t,  , v, a, n,  , r, i, j, n]])
+15:05:13.414 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: input[type=text]], [r, e, m, b, r, a, n, d, t,  , v, a, n,  , r, i, j, n]]
+15:05:13.425 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+15:05:13.456 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+15:05:13.463 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: button[name=btnG]]])
+15:05:13.482 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: button[name=btnG]]]
+15:05:13.988 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: button[name=btnG]]])
+15:05:13.996 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: button[name=btnG]]]
+15:05:14.506 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: button[name=btnG]]])
+15:05:14.516 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (53d8c5c469483633fe1018a76a22b1be)] -> css selector: button[name=btnG]]]
+15:05:14.534 INFO - Executing: [take screenshot])
+15:05:14.989 INFO - Done: [take screenshot]
+15:05:15.039 INFO - Executing: [delete session: b02444ec-7cb8-48c3-a936-d73d53608ecc])
+15:05:15.197 INFO - Done: [delete session: b02444ec-7cb8-48c3-a936-d73d53608ecc]

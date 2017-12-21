@@ -1,0 +1,22 @@
+{      
+    "version":"0.1.0",
+    "description":"nightwatch environment",
+    "private":true,
+    "author":"franco.manzur@mercadolibre.com",
+    "scripts":{  
+        "install-selenium":"./node_modules/selenium-standalone/bin/selenium-standalone install",
+        "nightwatch":"./node_modules/.bin/nightwatch",
+        "nightwatchbeta":"./node_modules/.bin/nightwatch -e beta --tag beta"
+    },
+    "repository":{  
+        "type":"git",
+        "url":""
+    },
+    "devDependencies":{  
+        "phantomjs":"2.1.1",
+        "nightwatch":"v0.9.12",
+        "selenium-server":"2.53.1",
+        "chromedriver":"2.24.1",
+        "selenium-webdriver":"^2.53.0"
+    }
+}

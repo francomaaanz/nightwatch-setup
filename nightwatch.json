@@ -1,0 +1,119 @@
+{
+  "src_folders": "./test/e2e/",
+  "output_folder": "./test/results",
+  "page_objects_path": "./test/e2e/",
+  "live_output": false,
+ 
+  "selenium": {
+    "start_process": true,
+    "log_path": "./test/e2e/results/",
+    "host": "127.0.0.1",
+    "port": 4444,
+    "server_path": "./node_modules/selenium-server/lib/runner/selenium-server-standalone-2.53.1.jar",
+    "cli_args": {
+      "webdriver.chrome.driver": "./node_modules/.bin/chromedriver"
+    }
+  },
+  "test_settings": {
+    "default": {
+      "globals": {
+        "username": "azpilicueta",
+        "password": "_1zP3l3C52t1+",
+        "launch_url": {
+          "mla": "http://desa.mercadolibre.com.ar:8080/",
+          "mlb": "http://desa.mercadolivre.com.br:8080/"
+        }
+      },
+      "skip_testcases_on_fail": false,
+      "silent": true,
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "on_error": false,
+        "path": "./test/screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "cssSelectorsEnabled": true
+      }
+    },
+    "beta" : {
+      "globals": {
+        "launch_url" : {
+          "mla": "http://beta-myapps.mercadolibre.com.ar/",
+          "mlb": "http://beta-myapps.mercadolivre.com.br/"
+        },
+        "username": "azpilicueta",
+        "password": "_1zP3l3C52t1+"
+      },
+      "skip_testcases_on_fail": false,
+      "silent": true,
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "on_error": false,
+        "path": "./test/screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "cssSelectorsEnabled": true,
+        "start-maximized": true,
+        "chromeOptions": {
+          "args": [
+            "start-fullscreen",
+            "start-maximized"
+          ]
+        }
+      }
+    },
+    "phantom": {
+      "skip_testcases_on_fail": false,
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "on_error": true,
+        "path": "./test/e2e/screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "phantomjs",
+        "phantomjs.binary.path": "./node_modules/phantomjs/bin/phantomjs"
+      }
+    },
+    "xvfb_desktop": {
+      "launch_url": "http://desa.mercadolibre.com.ar:8080/",
+      "globals": {
+        "username": "azpilicueta",
+        "password": "_1zP3l3C52t1+"
+      },
+      "selenium_host": "localhost",
+      "selenium_port": 4444,
+      "skip_testcases_on_fail": false,
+      "disable_colors": true,
+      "request_timeout_options": {
+        "timeout": 15000,
+        "retry_attempts": 5
+      },
+      "screenshots": {
+        "enabled": true,
+        "on_failure": false,
+        "on_error": false,
+        "path": "tests/e2e/results/screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "chromeOptions": {
+          "args": [
+            "--no-sandbox",
+            "--verbose"
+          ]
+        }
+      }
+    }
+  }
+}
